@@ -52,5 +52,36 @@ body{
    
 
  }
+ .bg{
+    background: linear-gradient(#ffffff, #fbfbfb);
+    padding: 40px 0 80px 0;
+    background-image: url("bg.png")  ;
+    height: 700px;
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.bg-inner{
+    display:flex;
+    align-items:center;
+    gap: 40px;
+    padding: 10px 0;
+}
+.bg-text{ 
+    flex: 1;
+ }
+.bg-text h1{
+    font-size:32px;
+    margin: 0 0 10px 0;
+}
+.span_text{ 
+    color:#1aa6b8; 
+}
+.bg-text p{ 
+    color:#666; 
+    line-height:1.6;
+     max-width:560px;
+ }
+
 
 
