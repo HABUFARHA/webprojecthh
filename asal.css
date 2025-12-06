@@ -32,3 +32,25 @@ body{
     justify-content: space-between;
     
 }
+.logo{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-weight:700;
+    color:#007c9e;
+    
+}
+.main-nav a{
+    margin-left:16px;
+    text-decoration:none;
+    color:#333;
+    font-size:14px;
+}
+.header-icons span{ 
+    margin-left:10px; 
+    cursor:pointer;
+   
+
+ }
+
+
