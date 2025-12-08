@@ -130,3 +130,43 @@ body{
     border-radius: 4px;
 }
 
+
+.about {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+}
+
+.about-img, 
+.about-text {
+    width: 50%;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-text {
+    width: 40%;
+}
+
+.about-text h2 {
+    font-size: 32px;
+}
+
+.about-text p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+.FIRST-learn-btn {
+    background: #089da1;
+    color: rgb(251, 249, 249);
+    padding: 8px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+}
+
+
+
