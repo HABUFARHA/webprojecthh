@@ -300,3 +300,25 @@ body{
 }
 
 
+
+
+.stars {
+  color: #00b3b3;
+  font-size: 20px;
+   margin-left: 45px;
+   margin-bottom: 20px;
+}
+.learns-btn {
+    background: transparent;
+    color: black;
+    padding: 8px 20px;
+    border: 2px solid #089da1;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+ 
+}
+
+
+
