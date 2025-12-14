@@ -574,4 +574,60 @@ body{
     color: #089da1 ;
 }
 
+/*dark mood */
+body.dark,
+body.dark .bg,
+body.dark .about,
+body.dark .features,
+body.dark .books-container,
+body.dark .reviews-container,
+body.dark .blog-section,
+body.dark .books-card,
+body.dark .book-card,
+body.dark .feature,
+body.dark .review-card,
+body.dark .card {
+    background-color: #121212 !important; /* كل الخلفيات تصبح داكنة */
+    color: #eaeaea !important;           /* النصوص بيضاء */
+}
+
+
+body.dark img {
+    filter: brightness(0.8);
+}
+
+
+body.dark header {
+    background: #222 !important;
+}
+
+
+body.dark .btn,
+body.dark .FIRST-learn-btn,
+body.dark .learn-btn,
+body.dark .learns-btn,
+body.dark .hero-btn {
+    background: #444 !important;
+    color: #eaeaea !important;
+    border-color: #666 !important;
+}
+
+
+body.dark a,
+body.dark p,
+body.dark h1, 
+body.dark h2, 
+body.dark h3,
+body.dark h4 {
+    color: #eaeaea !important;
+}
+
+
+body.dark .book-card:hover,
+body.dark .books-card:hover,
+body.dark .review-card:hover,
+body.dark .card:hover {
+    box-shadow: 0 0 10px #089da1;
+}
+
 

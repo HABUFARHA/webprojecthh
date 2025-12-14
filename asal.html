@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="asal.css">
+   
+ <link rel="stylesheet" href="asal.css">
+ 
 </head>
 <body>
     <header class="header">
@@ -26,6 +28,7 @@
                 <img src="search-interface-symbol.png" width="10px">
                 <img src="like.png" width="10px">
             </div>
+            <button id="dark-btn">dark</button>
         </div>
     </header>
     <br><br><br><br><br><br><br><br>
@@ -320,7 +323,7 @@
 
 
 
-  
+
 <main>
     <section id="blog" class="blog-section">
       <h2 class="section-title">Our Blog</h2>
@@ -414,6 +417,23 @@
       </div>
     </footer>
   </main>
+<script>
+
+document.addEventListener('DOMContentLoaded', () => {
+  const darkBtn = document.getElementById('dark-btn');
+
+  darkBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+
+   
+    if(document.body.classList.contains('dark')){
+        darkBtn.textContent = 'origin';
+    } else {
+        darkBtn.textContent = 'dark';
+    }
+  });
+});
+</script>
 
 
 </body>
