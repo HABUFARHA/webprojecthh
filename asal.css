@@ -375,5 +375,42 @@ body{
           margin-top: 20px;
 }
 
+.hero{
+  background-image: url('banner.jpg');
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  color: #fff;
+  position: relative;
+  display: block;
+}
+
+
+
+.hero-overlay{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width:none;
+  margin: 0 auto;
+  padding: 48px 24px;
+  display:flex;
+}
+
+.hero-left{
+    position: relative;
+}
+.hero-btn {
+    position: absolute;
+    top: 220px;
+    left: 85px;
+    background: #089da1;
+    color: rgb(251, 249, 249);
+    white-space: nowrap;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+}
 
 
